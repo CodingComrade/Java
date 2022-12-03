@@ -5,7 +5,7 @@ public class Employee {
     private String position;
 
     public Employee(String name, int id, String department,
-                         String position) {
+                    String position) {
         this.name = name;
         this.idNumber = id;
         this.department = department;
@@ -26,7 +26,7 @@ public class Employee {
     }
 
     public String getName() {
-       return name;
+        return name;
     }
 
     public String getDepartment() {
