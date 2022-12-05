@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-//public class Main {
+public class Main {
 //    public static void main(String[] args) {
 //    /*
 //    Write a method named showChar. The method should accept two arguments: a
@@ -59,7 +59,7 @@ each room. The program should have methods that return the following data:
 Then it should display the data on the screen.
  */
 //
-//public class Main {
+public class Main {
 //    public static void main(String[] args) {
 //        Scanner input = new Scanner(System.in);
 //        int rooms = input.nextInt();
@@ -571,4 +571,4 @@ into methods that perform each major task.
 //        }
 //        System.out.println(count);
 //    }
-//}
+}
