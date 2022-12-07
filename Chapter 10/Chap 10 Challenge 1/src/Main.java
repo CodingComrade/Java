@@ -6,6 +6,5 @@ public class Main {
         person.setHireDate("March 17, 2010");
         System.out.println(person.getName() + person.getEmployeeNumber() + person.getHireDate()
         + person.getShift() + person.getPayRate());
-
     }
 }
