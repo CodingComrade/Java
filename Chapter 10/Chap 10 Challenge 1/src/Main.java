@@ -7,5 +7,9 @@ public class Main {
         System.out.println(person.getName() + person.getEmployeeNumber() + person.getHireDate()
         + person.getShift() + person.getPayRate());
 
+        ShiftSupervisor manager = new ShiftSupervisor(50000, 5000);
+        manager.setName("Laura");
+        System.out.println(manager.getName() + " makes " + manager.getSalary());
+
     }
 }
