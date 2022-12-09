@@ -11,5 +11,10 @@ public class Main {
         manager.setName("Laura");
         System.out.println(manager.getName() + " makes " + manager.getSalary());
 
+        TeamLeader Katia = new TeamLeader(10000, 10, 100);
+
+        Katia.setName("Katia");
+        System.out.println(Katia.getName());
+
     }
 }

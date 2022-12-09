@@ -7,6 +7,10 @@ public class ProductionWorker extends Employee{
       this.payRate = payRate;
   }
 
+  public ProductionWorker() {
+
+  }
+
   public int getShift() {
       return shift;
   }
