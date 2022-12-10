@@ -14,7 +14,7 @@ public class CruiseShip extends Ship{
         this.maxPassengers = maxPassengers;
     }
 
-    @Override
+
     public String toString() {
         String str =
                 "Ship's name is: " + getName() + "\nMax passengers is: " + maxPassengers;

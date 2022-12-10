@@ -14,7 +14,7 @@ public class CargoShip extends Ship{
         this.cargo = cargo;
     }
 
-    @Override
+
     public String toString() {
         String str = "The ship's name is: " + getName() + "\nand the cargo " +
                 "capactiy is: " + cargo;
